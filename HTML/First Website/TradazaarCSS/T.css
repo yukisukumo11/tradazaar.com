@@ -1,0 +1,328 @@
+* {
+ margin: 0;
+ padding: 0;
+ font-family: 'poppins', sans-serif;
+ box-sizing: border-box;
+}
+
+body {
+
+  background: rgb(255, 227, 253);
+}
+
+.nav {
+  position: flex;
+  top: 0;
+  left: 0;
+  height: 80px;
+  width: 100%;
+  padding: 20px 100px;
+  background-color:rgb(255, 146, 217);
+}
+
+
+
+nav,
+.nav .nav-links {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+  list-style: none;
+  text-decoration: none;
+}
+
+
+.nav { 
+    justify-content: space-between;
+    
+}
+
+.logos {
+
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  list-style: none;
+}
+ 
+.logo {
+  margin-top: 10px;
+  height: 150px;
+  width: 200px;
+}
+
+.imagelogo {
+  
+  height: 55px;
+  width: auto;
+
+}
+
+
+.search-box {
+  display: flex;
+  height: 55px;
+  width: 500px;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #000000;
+  border-radius: 25px;
+  background: white;
+}
+
+
+.search-input {
+  flex-grow: 1;
+  padding: 3px 0px;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  width: 200px;
+  height: 40px;
+}       
+
+
+.search-button {
+  margin-top: 2.5px;
+  margin-left: 10px;
+  padding: 5px 7px;
+  border: none;
+  border-radius: 17px;
+  background: none;
+  cursor: pointer;
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
+}
+
+.button {
+  display: flex;
+  height: 10px;
+  width: 20px;
+  
+
+}
+
+
+.banner {
+  margin-top: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+} 
+
+.section-container {
+  width: 100%;
+  height: auto;
+}
+  
+
+
+
+
+.windows {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 50px;
+  position: center;
+  margin-top: 162.5px;
+}
+
+.heading {
+  height: 90px;
+  width: auto;
+  background: #ffffff;
+
+
+}
+
+
+
+.slides1, .slides2, .slides3, .slides4{
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  
+
+  padding-top: 20px;
+
+  & .section-title{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 32px;
+    font-weight: bold;
+    font-size: 3.5rem;
+    margin-top: 50px !important;
+    background-color: white;
+    text-align: center;
+  }
+}
+
+.slides1  {
+  background: rgb(255, 100, 100);
+}
+
+.slides2 {
+  
+  background: rgb(110, 255, 100);
+
+}
+  
+
+.slides3 {
+  
+  
+  background: rgb(100, 113, 255);
+}
+
+.slides4 {
+  
+  background: rgb(255, 255, 100);
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 200px;
+  height: 300px;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+
+
+.content1 img {
+  height: 150px;
+  width: auto;
+  
+}
+
+.content2 img {
+  height: 150px;
+  width: auto;
+  
+}
+
+.content3 img {
+  height: 150px;
+  width: auto;
+  
+}
+
+.content4 img {
+  height: 150px;
+  width: auto;
+
+}
+
+.name, .pricing {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.pricing {
+  font-size: 16px;
+  color: #555555;
+}
+
+  
+.Tradazaar-Banner {
+  height: 300px;
+  width: auto;
+}
+
+.sign-up-link{
+  background-color: white;
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  border-radius: 24px;
+  box-shadow: 0px 2px 2px black;
+  transition: 0.125s;
+}
+
+.sign-up-link:hover{
+  opacity: 0.8;
+}
+
+.sign-up-link:active{
+  opacity: 0.5;
+}
+
+.lower-section {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(255, 227, 253);
+}
+
+.title-lower-section {
+  font-size: 2em;
+  margin-top: 70px;
+  display: flex;
+  margin-bottom: 150px;
+}
+
+.about-tradazaar-container {
+  
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-color: rgb(255, 227, 253);
+
+
+}
+
+.about-tradazaar-heading {
+
+ font-size: 2em;
+
+
+}
+ 
+ 
+
+.definition-about-tradazaar {
+ text-align: center;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+background-color: rgb(255, 227, 253);
+}
+
+
+
+
+
+
+
+/* Footer */
+footer{
+  
+  background-color: hsl(0, 0%, 70%);
+}
+ 
+ 
